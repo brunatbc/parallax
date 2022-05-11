@@ -5,13 +5,25 @@
     padding: 0;
 }
 
-header{
+header.img{
+    background-color:  brown;
+    background-image: url("/imagens/imagem.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    min-height: 100vh;
    
 }
 
 header>h1{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 5vw;
+    color: white;
+    text-align: center;
+}
+
+header>p{
+    text-align: center;
 }
 
 section{
@@ -24,5 +36,6 @@ section{
 
 section#segundo{
     background-color: thistle;
+    text-align: left;
 
 }
